@@ -1,0 +1,24 @@
+comandos a ejecutar:
+
+Terminal 1
+
+source /opt/ros/noetic/setup.bash
+source /home/enrique/Trabajo/catkin_ws_no_effor/devel/setup.bash
+
+roscore
+
+Terminal 2
+
+source /opt/ros/noetic/setup.bash
+source /home/enrique/Trabajo/catkin_ws_no_effor/devel/setup.bash
+
+roslaunch scorbot_gazebo scorbot_join_test.launch
+
+
+Terminal 3
+
+source /opt/ros/noetic/setup.bash
+source /home/enrique/Trabajo/catkin_ws_no_effor/devel/setup.bash
+
+scripts de python deseados (join_test.py por ejemplo)
+
