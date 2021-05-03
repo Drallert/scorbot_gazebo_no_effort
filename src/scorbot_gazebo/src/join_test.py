@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import math
 import rospy
 from std_msgs.msg import Float64
